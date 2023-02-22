@@ -13,6 +13,9 @@
 		E5C1301C29A6689000031ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C1301A29A6689000031ECA /* Main.storyboard */; };
 		E5C1301E29A6689300031ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C1301D29A6689300031ECA /* Assets.xcassets */; };
 		E5C1302129A6689300031ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C1301F29A6689300031ECA /* LaunchScreen.storyboard */; };
+		E5C1302929A6797E00031ECA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1302829A6797E00031ECA /* User.swift */; };
+		E5C1302B29A679BC00031ECA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1302A29A679BC00031ECA /* Post.swift */; };
+		E5C1302D29A67F7600031ECA /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1302C29A67F7600031ECA /* PostsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E5C1301D29A6689300031ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5C1302029A6689300031ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5C1302229A6689300031ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5C1302829A6797E00031ECA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E5C1302A29A679BC00031ECA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		E5C1302C29A67F7600031ECA /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				E5C1301429A6689000031ECA /* AppDelegate.swift */,
 				E5C1301629A6689000031ECA /* SceneDelegate.swift */,
 				E5C1301829A6689000031ECA /* ViewController.swift */,
+				E5C1302C29A67F7600031ECA /* PostsViewController.swift */,
 				E5C1301A29A6689000031ECA /* Main.storyboard */,
+				E5C1302829A6797E00031ECA /* User.swift */,
+				E5C1302A29A679BC00031ECA /* Post.swift */,
 				E5C1301D29A6689300031ECA /* Assets.xcassets */,
 				E5C1301F29A6689300031ECA /* LaunchScreen.storyboard */,
 				E5C1302229A6689300031ECA /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C1302D29A67F7600031ECA /* PostsViewController.swift in Sources */,
+				E5C1302929A6797E00031ECA /* User.swift in Sources */,
 				E5C1301929A6689000031ECA /* ViewController.swift in Sources */,
 				E5C1301529A6689000031ECA /* AppDelegate.swift in Sources */,
 				E5C1301729A6689000031ECA /* SceneDelegate.swift in Sources */,
+				E5C1302B29A679BC00031ECA /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
