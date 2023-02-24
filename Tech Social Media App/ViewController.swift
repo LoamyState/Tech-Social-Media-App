@@ -36,6 +36,9 @@ let currentUser = jane
         for item in array {
             output += "\(item)\n"
         }
+        while output.last == "\n" {
+            output.removeLast()
+        }
         return output
     }
     

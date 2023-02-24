@@ -27,7 +27,10 @@ let currentUser = jane
     
     func updateUI() {
         postImageView.image = UIImage(named: currentUser.imageName)
-        postImageView.layer.cornerRadius = 61
+        
+        let imageViewSize = postImageView.bounds.size.height
+        
+        postImageView.layer.cornerRadius = imageViewSize / 2
         posterNameLabel.text = currentUser.name
         postDateLabel.text = currentUser.posts[0].date.formatted()
         postContentLabel.text = currentUser.posts[0].content
